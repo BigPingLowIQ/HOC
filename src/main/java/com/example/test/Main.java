@@ -1,8 +1,10 @@
-package com.example;
+package com.example.test;
 
 public class Main {
     public static void main(String[] args){
         Human exemplu = new Human("Adrian",29);
+       int x=10;
+
         System.out.println(exemplu.getName()+" are "+exemplu.getAge() + " ani.");
     }
 }
